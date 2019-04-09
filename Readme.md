@@ -1,7 +1,7 @@
 # Installation
 Download the project
 ```
-git clone <placeholder>
+git clone https://github.com/louislouisloui/musictribe.git
 ```
 To optimize the storage, the data source is not included.  
 So copy your data into the directory

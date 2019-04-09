@@ -1,0 +1,14 @@
+version: '3'
+services:
+  app:
+    build: app/
+    volumes: 
+      - ./app:/app
+      - ./data:/app/data
+    depends_on:
+      - mongo
+  mongo:
+    restart: always
+    image: "mvertes/alpine-mongo"
+    ports:
+      - 27017:27017
